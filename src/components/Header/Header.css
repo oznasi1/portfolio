@@ -1,0 +1,28 @@
+
+.navbar{
+    background-color:#5CDB95;
+}
+
+.nav-link{
+    color: #001A4D;
+}
+
+.nav-link:hover{
+   /* color:aliceblue;*/
+   color: #001A4D;
+
+}
+
+.nav-item{
+    padding: 16px 50px 16px 16px
+}
+
+.nav-item:hover{
+    color:aliceblue;
+}
+
+.card-img-me{
+    max-width: 100px;
+    max-height: 100px;
+    padding: 16px;
+}

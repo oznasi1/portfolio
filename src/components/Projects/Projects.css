@@ -1,0 +1,19 @@
+.card-img-top{
+    max-width: 80px;
+    max-height: 80px;
+    padding: 16px;
+}
+
+.card{
+    background-color: black;
+}
+
+div .fa-play{
+    margin-left: 41%;
+    color:#001a4d;
+}
+
+div .fa-play:hover{
+    color: #5CDB95;
+    
+}

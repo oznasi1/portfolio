@@ -1,0 +1,111 @@
+
+@media screen and (min-width: 601px) {
+    .typewriter-text {
+      font-size: 30px;
+    }
+
+    h1{
+        font-size: 3.5rem
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .typewriter-text {
+      font-size: 18px;
+    }
+    h1{
+        font-size: 3.0rem
+    }
+  }
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 75% 0%
+    }
+    50% {
+        background-position: 26% 100%
+    }
+    100% {
+        background-position: 75% 0%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 75% 0%
+    }
+    50% {
+        background-position: 26% 100%
+    }
+    100% {
+        background-position: 75% 0%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 75% 0%
+    }
+    50% {
+        background-position: 26% 100%
+    }
+    100% {
+        background-position: 75% 0%
+    }
+}
+
+h1 {
+    color: #001a4d;
+    text-shadow: 1px 1px #333;
+}
+
+h4 {
+    color: #001a4d;
+    text-shadow: 0.5px 0.5px 001a4d;
+}
+
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+}
+
+.typewriter-text {
+    display: inline-flexbox;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 4s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: aliceblue; 
+    }
+}
+
+.fas{
+    color:#001a4d;
+    margin-inline-start: 41%;
+    padding: 16px;
+
+}
+
+.fas:hover{
+    color: aliceblue;
+}
+
