@@ -7,8 +7,13 @@
     transform: rotate(359deg); } }
 
 .App{
-  background-color: #5CDB95;
+  background-color: #4BBCF4;
 }
+
+a:hover{
+  color:#E25F70 !important;
+}
+
 
 .delete, .modal-close, .is-unselectable, .button, .file, .breadcrumb, .pagination-previous,
 .pagination-next,

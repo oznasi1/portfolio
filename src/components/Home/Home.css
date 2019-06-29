@@ -57,12 +57,12 @@
 
 h1 {
     color: #001a4d;
-    text-shadow: 1px 1px #333;
+    text-shadow: 1px 1px #E25F70;
 }
 
 h4 {
     color: #001a4d;
-    text-shadow: 0.5px 0.5px #001a4d;
+    text-shadow: 0.5px 0.5px #E25F70;
 }
 
 .typewriter {
@@ -98,14 +98,19 @@ h4 {
     }
 }
 
-.fas{
-    color:#001a4d;
-    margin-inline-start: 41%;
-    padding: 16px;
-
+div.wrap-arrow {
+    text-align: center;
 }
 
-.fas:hover{
-    color: aliceblue;
+div.wrap-arrow .fas{
+    display: inline-block;
+    color:#001a4d;
+    padding: 16px;
+    
+}
+
+div.wrap-arrow .fas:hover{
+    color: #E25F70;
+    cursor: pointer;
 }
 

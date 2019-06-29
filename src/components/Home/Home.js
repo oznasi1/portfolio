@@ -17,7 +17,9 @@ class Home extends Component {
 					<br />
 					Here you can see some of my cool projects :)
 				</p>
-				<i className="fas fa-angle-double-down fa-3x"/>
+				<div className="wrap-arrow">
+					<i className="fas fa-angle-double-down fa-3x"/>
+				</div>
 			</div>
 		);
 	}

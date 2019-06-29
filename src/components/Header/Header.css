@@ -1,25 +1,28 @@
 
+
+@media screen and (min-width: 601px) {
+    .nav-item{
+        padding: 16px 8px 16px 8px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .nav-item{
+        padding: 16px 8px 16px 16px;
+    }
+
+  }
+
 .navbar{
-    background-color:#5CDB95;
+    background-color:#4BBCF4;
 }
 
 .nav-link{
     color: #001A4D;
 }
 
-.nav-link:hover{
-   /* color:aliceblue;*/
-   color: #001A4D;
 
-}
-
-.nav-item{
-    padding: 16px 50px 16px 16px
-}
-
-.nav-item:hover{
-    color:aliceblue;
-}
 
 .card-img-me{
     max-width: 100px;

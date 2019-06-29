@@ -7,7 +7,6 @@ class Header extends Component {
 		return (
 			<nav className="navbar navbar-expand-sm navbar-light">
 				<img className="card-img-me" src={ozPic} alt="Card image cap" />
-
 				<button
 					className="navbar-toggler"
 					type="button"
@@ -25,6 +24,11 @@ class Header extends Component {
 						<li className="nav-item">
 							<Link to="/" className="nav-link active">
 								Home
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link to="/" className="nav-link active">
+								About 
 							</Link>
 						</li>
 						<li className="nav-item">

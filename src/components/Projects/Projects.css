@@ -1,19 +1,22 @@
-.card-img-top{
+.card-img-top {
     max-width: 80px;
     max-height: 80px;
-    padding: 16px;
+    padding: 8px;
 }
 
-.card{
+.card {
     background-color: black;
 }
 
-div .fa-play{
-    margin-left: 41%;
-    color:#001a4d;
+div.card {
+    text-align: center;
 }
 
-div .fa-play:hover{
-    color: #5CDB95;
-    
+div.card .fa-play {
+    display: inline-block;
+    color: #001a4d;
+}
+
+.card {
+    background-color: #FAE3D9 !important;
 }
