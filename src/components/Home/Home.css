@@ -1,23 +1,22 @@
-
 @media screen and (min-width: 601px) {
     .typewriter-text {
-      font-size: 30px;
+        font-size: 30px;
     }
-
-    h1{
+    h1 {
         font-size: 3.5rem
     }
-  }
-  
-  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 600px) {
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+@media screen and (max-width: 600px) {
     .typewriter-text {
-      font-size: 18px;
+        font-size: 18px;
     }
-    h1{
+    h1 {
         font-size: 3.0rem
     }
-  }
+}
 
 @-webkit-keyframes AnimationName {
     0% {
@@ -57,44 +56,45 @@
 
 h1 {
     color: #001a4d;
-    text-shadow: 1px 1px #E25F70;
+    text-shadow: 1px 1px rgb(228, 52, 75);
 }
 
 h4 {
     color: #001a4d;
-    text-shadow: 0.5px 0.5px #E25F70;
+    text-shadow: 0.5px 0.5px rgb(228, 52, 75);
 }
 
 .typewriter {
     font-family: Courier, monospace;
-	display: inline-block;
+    display: inline-block;
+
 }
 
 .typewriter-text {
     display: inline-flexbox;
-  	overflow: hidden;
-  	letter-spacing: 2px;
- 	animation: typing 4s steps(30, end), blink .75s step-end infinite;
+    overflow: hidden;
+    letter-spacing: 2px;
+    animation: typing 4s steps(30, end), blink .75s step-end infinite;
     white-space: nowrap;
     border-right: 4px solid orange;
     box-sizing: border-box;
 }
 
 @keyframes typing {
-    from { 
-        width: 0% 
+    from {
+        width: 0%
     }
-    to { 
-        width: 100% 
+    to {
+        width: 100%
     }
 }
 
 @keyframes blink {
-    from, to { 
-        border-color: transparent 
+    from, to {
+        border-color: transparent
     }
-    50% { 
-        border-color: aliceblue; 
+    50% {
+        border-color: aliceblue;
     }
 }
 
@@ -102,15 +102,22 @@ div.wrap-arrow {
     text-align: center;
 }
 
-div.wrap-arrow .fas{
+div.wrap-arrow .fas {
     display: inline-block;
-    color:#001a4d;
+    color: #001a4d;
     padding: 16px;
-    
 }
 
-div.wrap-arrow .fas:hover{
-    color: #E25F70;
+div.wrap-arrow .fas:hover {
+    color: rgb(228, 52, 75);
     cursor: pointer;
 }
 
+#doubleDown {
+    max-width: 30px;
+}
+
+.my-4{
+    border-width: medium;
+    color: blueviolet;
+}

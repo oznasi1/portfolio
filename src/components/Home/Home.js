@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css';
+import { Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 class Home extends Component {
 	render() {
@@ -15,10 +16,16 @@ class Home extends Component {
 					<br />
 					I'm very passionate about web developement and looking my next home to grow up with.
 					<br />
-					Here you can see some of my cool projects :)
 				</p>
 				<div className="wrap-arrow">
-					<i className="fas fa-angle-double-down fa-3x"/>
+					<i className="fas fa-angle-double-down fa-3x" onClick={() =>
+									scroller.scrollTo('about', {
+										duration: 1500,
+										delay: 100,
+										smooth: true,
+										offset: -20,
+									})
+								}></i>
 				</div>
 			</div>
 		);

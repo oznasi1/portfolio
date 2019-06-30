@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
 import ozPic from '../../assets/me.png';
+import { animateScroll as scroll, scroller } from 'react-scroll';
+
 class Header extends Component {
 	render() {
 		return (
@@ -22,29 +24,36 @@ class Header extends Component {
 				<div className="collapse navbar-collapse " id="navbarSupportedContent">
 					<ul className="navbar-nav mr-auto">
 						<li className="nav-item">
-							<Link to="/" className="nav-link active">
-								Home
-							</Link>
+							<a  className="nav-link active" onClick={() =>
+									scroller.scrollTo('about', {
+										duration: 1500,
+										delay: 100,
+										smooth: true,
+										offset: -20,
+									})
+								}>
+								About
+							</a>
 						</li>
 						<li className="nav-item">
-							<Link to="/" className="nav-link active">
-								About 
-							</Link>
-						</li>
-						<li className="nav-item">
-							<Link to="/" className="nav-link active">
+							<a
+								className="nav-link active"
+								onClick={() =>
+									scroller.scrollTo('projects', {
+										duration: 1500,
+										delay: 100,
+										smooth: true,
+										offset: -30,
+									})
+								}
+							>
 								Projects
-							</Link>
+							</a>
 						</li>
 						<li className="nav-item">
-							<Link to="/" className="nav-link active">
-								CV
-							</Link>
-						</li>
-						<li className="nav-item">
-							<Link to="/" className="nav-link active">
+							<a className="nav-link active" onClick={() => scroll.scrollToBottom()}>
 								Contact
-							</Link>
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -54,21 +63,3 @@ class Header extends Component {
 }
 
 export default Header;
-
-// <ul className="nav justify-content-center">
-// <li className="nav-item">
-//     <Link to="/" className="nav-link active">Home</Link>
-// </li>
-// <li className="nav-item">
-//     <Link to="/" className="nav-link active">About</Link>
-// </li>
-// <li className="nav-item">
-//     <Link to="/" className="nav-link active">Projects</Link>
-// </li>
-// <li className="nav-item">
-//     <Link to="/" className="nav-link active">CV</Link>
-// </li>
-// <li className="nav-item">
-//     <Link to="/" className="nav-link active">Contact</Link>
-// </li>
-// </ul>

@@ -8,15 +8,23 @@
     background-color: black;
 }
 
-div.card {
+div.wrapper-play {
     text-align: center;
 }
 
-div.card .fa-play {
+div.wrapper-play .fa-play {
     display: inline-block;
     color: #001a4d;
+    padding: 16px;
 }
+
+
+
 
 .card {
     background-color: #FAE3D9 !important;
+}
+
+#cardPortfolio{
+    background-color: rgb(238, 203, 108) !important;
 }
