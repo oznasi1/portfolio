@@ -12,9 +12,9 @@ class Home extends Component {
 				</div>
 				<hr className="my-4" />
 				<p>
-					Hi everbody, my name is oz and i'm B.Sc computer science graduate.
+					Hi everybody, my name is oz and I’m B.Sc. computer science graduate.
 					<br />
-					I'm very passionate about web developement and looking my next home to grow up with.
+					I'm very passionate about web development  and looking my next home to grow up with.
 					<br />
 				</p>
 				<div className="wrap-arrow">
