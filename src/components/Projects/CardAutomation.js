@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import seleniumImg from '../../assets/selenium_pic.png';
+import ledScreenVideo from'../../assets/videos/led_screen_video.mp4';
 
 export default class CardAutomation extends Component {
 	render() {
@@ -19,7 +20,7 @@ export default class CardAutomation extends Component {
 						</small>
 					</p>
 					<div className="wrapper-play">
-						<a href="https://tranquil-waters-72140.herokuapp.com" class="fas fa-play fa-lg" />
+						<a class="fas fa-play fa-lg"  onClick={()=>this.props.handleClick(ledScreenVideo)}/>
 					</div>
 				</div>
 			</div>

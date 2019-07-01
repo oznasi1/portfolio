@@ -28,3 +28,20 @@ div.wrapper-play .fa-play {
 #cardPortfolio{
     background-color: rgb(238, 203, 108) !important;
 }
+
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+  }
+   
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .btn{
+    background-color: rgb(228, 52, 75) !important;
+    text-align: center !important;
+    margin: 16px;
+  }

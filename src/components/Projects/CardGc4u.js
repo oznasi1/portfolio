@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import reactAdminImg from '../../assets/react_admin_pic.png';
+import reactAdminVideo from'../../assets/videos/react_admin_video.mp4';
+
 
 export default class CardGc4u extends Component {
+
 	render() {
 		return (
 			<div className="card text-left">
@@ -20,7 +23,7 @@ export default class CardGc4u extends Component {
 						</small>
 					</p>
 					<div className="wrapper-play">
-						<a href="https://tranquil-waters-72140.herokuapp.com" class="fas fa-play fa-lg" />
+						<a  class="fas fa-play fa-lg" onClick={()=>this.props.handleClick(reactAdminVideo)}/>
 					</div>
 				</div>
 			</div>
