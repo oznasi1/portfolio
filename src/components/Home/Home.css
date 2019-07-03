@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 600px) {
     .typewriter-text {
-        font-size: 18px;
+        font-size: 20px;
     }
     h1 {
         font-size: 3.0rem
@@ -67,7 +67,6 @@ h4 {
 .typewriter {
     font-family: Courier, monospace;
     display: inline-block;
-
 }
 
 .typewriter-text {
@@ -106,18 +105,27 @@ div.wrap-arrow .fas {
     display: inline-block;
     color: #001a4d;
     padding: 16px;
+    animation: arrowDown 3s infinite;
 }
 
-div.wrap-arrow .fas:hover {
+/* div.wrap-arrow .fas:hover {
     color: rgb(228, 52, 75);
     cursor: pointer;
-}
+} */
 
-#doubleDown {
-    max-width: 30px;
-}
-
-.my-4{
+.my-4 {
     border-width: medium;
     color: blueviolet;
+}
+
+@keyframes arrowDown {
+    
+    70% {
+        transform: translate(0px, 5px);
+        color: rgb(228, 52, 75);
+
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
 }

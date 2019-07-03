@@ -4,12 +4,10 @@
     padding: 8px;
 }
 
-.card {
-    background-color: black;
-}
 
 div.wrapper-play {
     text-align: center;
+    padding:'0px 0px 50px 0px';
 }
 
 div.wrapper-play .fa-play {
@@ -18,11 +16,9 @@ div.wrapper-play .fa-play {
     padding: 16px;
 }
 
-
-
-
 .card {
     background-color: #FAE3D9 !important;
+    min-width: 170px !important;
 }
 
 #cardPortfolio{
@@ -31,11 +27,12 @@ div.wrapper-play .fa-play {
 
 .player-wrapper {
     position: relative;
-    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+    padding-top: 16px ;
+
   }
    
   .react-player {
-    position: absolute;
+    position: initial;
     top: 0;
     left: 0;
   }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import reactAdminImg from '../../assets/react_admin_pic.png';
+import reactAdminImg from '../../assets/photos/react_admin_pic.png';
 import reactAdminVideo from'../../assets/videos/react_admin_video.mp4';
 
 
@@ -23,7 +23,7 @@ export default class CardGc4u extends Component {
 						</small>
 					</p>
 					<div className="wrapper-play">
-						<a  class="fas fa-play fa-lg" onClick={()=>this.props.handleClick(reactAdminVideo)}/>
+						<a  className="fas fa-play fa-lg" onClick={()=>this.props.handleClick(reactAdminVideo)}/>
 					</div>
 				</div>
 			</div>

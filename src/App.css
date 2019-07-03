@@ -7,13 +7,59 @@ a:hover{
   cursor: pointer;
 }
 
-p {
+p,a {/*a is the header*/
   font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
 
-h2,h1,h3,h5{
+h2,h1,h3,h4,h5{
   font-family: 'Nexa-Bold';
 }
+
+h3 {
+  background: linear-gradient(to right, #001A4D,#001A4D,rgb(228, 52, 75),#001A4D);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 200% ;
+  animation: textShine 3s infinite;
+  animation-direction: reverse;
+}
+
+@keyframes textShine {
+  0% {
+    background-position: 0%;
+  }
+  100%{
+    background-position: 200%;
+  }
+}
+
+
+/* @keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
+} */
+
+/* h3 span:hover{
+  display: inline-block;
+  animation: headline 2s ;
+
+}
+ */
+
+@keyframes headline {
+from {
+  transform: rotate(0deg);
+  color:rgb(228, 52, 75);
+}
+to {
+  transform: rotate(360deg);
+  }
+}
+
 
 
 @font-face {

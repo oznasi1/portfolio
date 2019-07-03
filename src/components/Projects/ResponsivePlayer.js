@@ -12,6 +12,7 @@ export default class ResponsivePlayer extends Component {
             width='100%'
             height='100%'
             playing={true}
+            controls={true}
           />
         </div>
       )

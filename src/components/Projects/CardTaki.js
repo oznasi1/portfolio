@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import takiImg from '../../assets/taki_pic.png';
+import takiImg from '../../assets/photos/taki_pic.png';
 
 export default class CardTaki extends Component {
 	render() {

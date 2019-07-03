@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import seleniumImg from '../../assets/selenium_pic.png';
+import seleniumImg from '../../assets/photos/selenium_pic.png';
 import ledScreenVideo from'../../assets/videos/led_screen_video.mp4';
 
 export default class CardAutomation extends Component {
@@ -11,6 +11,9 @@ export default class CardAutomation extends Component {
 					<h5 className="card-title">Automation tool</h5>
 					<p className="card-text">
 						An automation tool that updates commersial LED screen in the food industry.
+						With a little configuration at the beginning such as: selecting the type of upload, photos or videos and 
+						choosing directory to upload from.<br/>
+						At the end of the procces email is send as demand with the status.
 					</p>
 					<p className="card-text">
 						<small className="text-muted">

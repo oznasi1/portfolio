@@ -7,14 +7,15 @@ export default class About extends Component {
 			<div name="about" className="jumbotron-fluid">
 				<h3>About me</h3>
 				<p>
-					So, I’m 27 years old, born and raised in Holon.
+					I’m 27 years old, born and raised in Holon.
 					<br />
-					Until now, i was working in our family business  - supermarket  ahim nasi Ltd.
+					Until now, i was working in our family business - supermarket ahim nasi Ltd.
 					<br />
-					At the beginning as a operational manager and later responsible for advertising, innovative
-					technologies fetchers - basically  thinking outside the box.
+					At the supermarket, I took on the roles of an operational manager and later, a marketing and
+					innovation leader - in charge of making sure our supermarket keeps up to modern demands.
 					<br />
-					Now, after graduating I’m looking forward  to fit together in the Hi-Teck industry - being a part of the web development  field.
+					Now, after graduating I’m looking forward to start my journey in the Hi-Tech industry - by working
+					as a web developer.
 					<br />
 					<br />
 				</p>

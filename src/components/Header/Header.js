@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './Header.css';
-import ozPic from '../../assets/me.png';
+import ozPic from '../../assets/photos/me.png';
 import { animateScroll as scroll, scroller } from 'react-scroll';
 
 class Header extends Component {
 	render() {
 		return (
-			<nav className="navbar navbar-expand-sm navbar-light">
+			<nav className="navbar navbar-expand-md navbar-light">
 				<img className="card-img-me" src={ozPic} alt="Card image cap" />
 				<button
 					className="navbar-toggler"
@@ -48,6 +47,21 @@ class Header extends Component {
 								}
 							>
 								Projects
+							</a>
+						</li>
+						<li className="nav-item">
+							<a
+								className="nav-link active"
+								onClick={() =>
+									scroller.scrollTo('niceToHave', {
+										duration: 1500,
+										delay: 100,
+										smooth: true,
+										offset: -30,
+									})
+								}
+							>
+								Nice to have
 							</a>
 						</li>
 						<li className="nav-item">
