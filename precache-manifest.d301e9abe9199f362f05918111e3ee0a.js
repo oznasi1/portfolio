@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd5344c1dc7fcd8cc6dbc1571a5f33bc",
+    "revision": "5242287bf1660408752f2ca068f20602",
     "url": "./index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "215ef6136e1852e29b01",
+    "revision": "d0eed48a3946743e8c39",
     "url": "./static/css/main.377336fc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.9149b8df.chunk.js"
   },
   {
-    "revision": "215ef6136e1852e29b01",
-    "url": "./static/js/main.ee9c6c5e.chunk.js"
+    "revision": "d0eed48a3946743e8c39",
+    "url": "./static/js/main.3ca2ff99.chunk.js"
   },
   {
     "revision": "8c97409f0ee389fe75da",
@@ -40,20 +40,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/me.8c31d448.png"
   },
   {
-    "revision": "5f160da02d6c4c8fcb9d7aac1310a4ae",
-    "url": "./static/media/react_admin_pic.5f160da0.png"
+    "revision": "783078edb5dc037e93d5002049df345f",
+    "url": "./static/media/react_admin_pic.783078ed.png"
   },
   {
     "revision": "64770dedfb79324933a4e7d099f3ec8b",
     "url": "./static/media/react_admin_video.64770ded.mp4"
-  },
-  {
-    "revision": "f61dc2971d1c401d7daaab087dadd6ef",
-    "url": "./static/media/rise_up_alarm.f61dc297.png"
-  },
-  {
-    "revision": "888c2065120d770c4445983a530d0192",
-    "url": "./static/media/selenium_pic.888c2065.png"
   },
   {
     "revision": "90c3b887cb19fc7e92c630bf876174e7",
