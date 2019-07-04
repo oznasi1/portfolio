@@ -6,6 +6,7 @@ import CardGc4u from './CardGc4u';
 import CardPortfolio from './CardPortfolio';
 import ResponsivePlayer from './ResponsivePlayer';
 import CardRiseUpAlarm from './CardRiseUpAlarm';
+import CardSuperNasi from './CardSuperNasi';
 
 class Projects extends Component {
 	constructor(props) {
@@ -40,8 +41,9 @@ class Projects extends Component {
 						<CardGc4u handleClick={this.handlePlayClick} />
 						<CardAutomation handleClick={this.handlePlayClick} />
 						<CardRiseUpAlarm />
-						<CardTaki />
 						<CardPortfolio />
+						<CardTaki />
+						<CardSuperNasi/>
 					</div>
 				</div>
 			);

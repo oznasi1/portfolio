@@ -39,7 +39,7 @@ class Header extends Component {
 								className="nav-link active"
 								onClick={() =>
 									scroller.scrollTo('projects', {
-										duration: 1500,
+										duration: 1000,
 										delay: 100,
 										smooth: true,
 										offset: -30,
