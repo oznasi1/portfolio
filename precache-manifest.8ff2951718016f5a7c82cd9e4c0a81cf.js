@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54d824c19498c85db89bfeeafbdff2d5",
+    "revision": "8ffb0de328a6d50df362dc1f53795dad",
     "url": "./index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "d38883dec95e261a5f67",
+    "revision": "ec56ab28acedea87d79d",
     "url": "./static/css/main.377336fc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.356bce6e.chunk.js"
   },
   {
-    "revision": "d38883dec95e261a5f67",
-    "url": "./static/js/main.4ac9922a.chunk.js"
+    "revision": "ec56ab28acedea87d79d",
+    "url": "./static/js/main.9400c858.chunk.js"
   },
   {
     "revision": "8c97409f0ee389fe75da",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/Nexa-Bold.254370af.otf"
   },
   {
-    "revision": "729fc822f81d577e5d79a033a51c515e",
-    "url": "./static/media/Oz Nasi CV.729fc822.pdf"
+    "revision": "ec49c548e4ebd5f760fa94304f9477e4",
+    "url": "./static/media/Oz Nasi CV.ec49c548.pdf"
   },
   {
     "revision": "1a3ed38e2b748367d62310e3fbbe56cc",
