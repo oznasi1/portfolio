@@ -14,7 +14,7 @@ class Home extends Component {
 				<p>
 					Hi everybody, my name is oz and I’m B.Sc. computer science graduate.
 					<br />
-					I'm very passionate about web development  and looking my next home to grow up with.
+					I'm very passionate about web development and looking for my next home to grow up with.
 					<br />
 				</p>
 				<div className="wrap-arrow">

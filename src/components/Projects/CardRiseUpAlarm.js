@@ -9,13 +9,16 @@ export default class CardRiseUpAlarm extends Component {
 				<div className="card-body">
 					<h5 className="card-title">Rise-Up Alarm</h5>
 					<p className="card-text">
-						RiseUp Alarm is an amazing alarm clock that surprises you every day with a new song!
+						Rise Up Alarm is an amazing alarm clock that surprises you every day with a new song!
 						<br />
-						How does he do it? it start from a list of 30 song that reported as best one to wake up with.<br/>
-						Every alarm the user has two option:<br/>
-						like or unlike, and according to that his future list updates.
+						How does it do it? it start from a list of 30 song that reported as the best ones to wake up with.<br/>
+						At the end of every alarm the user has two options:<br/>
+						LIKE or UNLIKE, and according to the user's choice his future list updates.
 						<br />
 						Just schedule your alarms, it’s EASY.
+						<br />
+						4.9 stars at google play store.
+						Hundreds of users.
 					</p>
 					<p className="card-text">
 						<small className="text-muted">
@@ -25,8 +28,14 @@ export default class CardRiseUpAlarm extends Component {
 						</small>
 					</p>
 					<div className="wrapper-play">
-						<a class="fas fa-play fa-lg" />
+						<a  href="https://play.google.com/store/apps/details?id=our.amazing.clock" class="fas fa-play fa-lg" />
 					</div>
+					<p className="card-text">
+						<small className="text-muted">
+							Contributors: Alex Perry
+						</small>
+						<a href="https://www.linkedin.com/in/alex-perry-801870108/" class="fab fa-linkedin fa-sm" />
+					</p>
 				</div>
 			</div>
 		);

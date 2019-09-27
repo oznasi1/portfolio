@@ -10,10 +10,10 @@ export default class CardAutomation extends Component {
 				<div className="card-body">
 					<h5 className="card-title">Automation tool</h5>
 					<p className="card-text">
-						An automation tool that updates commersial LED screen in the food industry.
-						With a little configuration at the beginning such as: selecting the type of upload, photos or videos and 
-						choosing directory to upload from.<br/>
-						At the end of the procces email is send as demand with the status.
+						An automation tool that updates commercial  LED screen in the food industry.
+						With a little configuration at the beginning such as: selecting the type of upload, photos or videos, 
+						choosing a directory to upload from and an email aderess.<br/>
+						At the end of the process an email is sent with the status.
 					</p>
 					<p className="card-text">
 						<small className="text-muted">

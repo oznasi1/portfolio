@@ -10,10 +10,10 @@ export default class CardGc4u extends Component {
 			<div className="card text-left">
 				<img className="card-img-top" src={reactAdminImg} alt="Card image cap" />
 				<div className="card-body">
-					<h5 className="card-title">Dashborad for admins</h5>
+					<h5 className="card-title">Dashboard  for admins</h5>
 					<p className="card-text">
-						I was hired as freelancer by a small company called GC4U. During my job there i built custom
-						dashbord that is in use for the admins of the company.
+						I was hired as a freelancer by a small company called GC4U. During my job there I built a custom
+						dashboard  that is in use for the admins of the company.
 					</p>
 					<p className="card-text">
 						<small className="text-muted">

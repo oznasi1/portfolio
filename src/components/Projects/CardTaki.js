@@ -9,8 +9,9 @@ export default class CardTaki extends Component {
 				<div className="card-body">
 					<h5 className="card-title">Online Taki game</h5>
 					<p className="card-text">
-						Multiplayer Taki game that is served on Heroku servers. You can log in up to 4 player.
-						Originaly this game was build with vanila js against bot and later refactor to javascript es6 and react JS.
+						Multiplayer Taki game that is served on Heroku servers. You can log in up to 4 players.
+						Originally this game was built with vanilla js against a bot and later refactored to javascript
+						es6 and react JS.
 					</p>
 					<p className="card-text">
 						<small className="text-muted">
@@ -22,6 +23,10 @@ export default class CardTaki extends Component {
 					<div className="wrapper-play">
 						<a href="https://tranquil-waters-72140.herokuapp.com" class="fas fa-play fa-lg" />
 					</div>
+					<p className="card-text">
+						<small className="text-muted">Contributors: Amit Dror </small>
+						<a href="https://www.linkedin.com/in/amit-dror-ba010514b/" class="fab fa-linkedin fa-sm" />
+					</p>
 				</div>
 			</div>
 		);

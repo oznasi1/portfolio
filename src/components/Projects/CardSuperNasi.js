@@ -10,8 +10,8 @@ export default class CardSuperNasi extends Component {
 				<div className="card-body">
 					<h5 className="card-title">Image website for Super Nasi</h5>
 					<p className="card-text">
-						Part of my job in the family bussiness, i built this website using wix editor.
-						Simple and clean - shows every month the best promotion. 
+						Part of my job in the family business was to build this website using wix editor.
+						Simple and clean - shows every month the best sales. 
 						Taking care of all the graphic design inside.
 					</p>
 					<p className="card-text">
