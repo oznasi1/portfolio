@@ -27,9 +27,9 @@ export default class CardRiseUpAlarm extends Component {
 							java, android studio, firebase cloud function written in node js and noSql database.
 						</small>
 					</p>
-					<div className="wrapper-play">
+					{/* <div className="wrapper-play">
 						<a  href="https://play.google.com/store/apps/details?id=our.amazing.clock" class="fas fa-play fa-lg" />
-					</div>
+					</div> */}
 					<p className="card-text">
 						<small className="text-muted">
 							Contributors: Alex Perry
